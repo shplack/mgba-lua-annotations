@@ -1,0 +1,41 @@
+---@meta
+
+---@alias RegisterName
+---| GBARegisterName
+---| GBRegisterName
+
+---@alias GBARegisterName
+---| '"r0"'   Width: 4
+---| '"r1"'   Width: 4
+---| '"r2"'   Width: 4
+---| '"r3"'   Width: 4
+---| '"r4"'   Width: 4
+---| '"r5"'   Width: 4
+---| '"r6"'   Width: 4
+---| '"r7"'   Width: 4
+---| '"r8"'   Width: 4
+---| '"r9"'   Width: 4
+---| '"r10"'  Width: 4
+---| '"r11"'  Width: 4
+---| '"r12"'  Width: 4, Alias: "ip"
+---| '"sp"'   Width: 4, Alias: "r13"
+---| '"lr"'   Width: 4, Alias: "r14"
+---| '"pc"'   Width: 4, Alias: "r15"
+---| '"cpsr"' Width: 4
+
+
+---@alias GBRegisterName
+---| '"b"'    Width: 1
+---| '"c"'    Width: 1
+---| '"d"'    Width: 1
+---| '"e"'    Width: 1
+---| '"h"'    Width: 1
+---| '"l"'    Width: 1
+---| '"a"'    Width: 1
+---| '"f"'    Width: 1
+---| '"bc"'   Width: 2
+---| '"de"'   Width: 2
+---| '"hl"'   Width: 2
+---| '"af"'   Width: 2
+---| '"pc"'   Width: 2
+---| '"sp"'   Width: 2
